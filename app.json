@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dynamicinfra.testbagsssandsolanaissue"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dynamicinfra.testbagsssandsolanaissue"
     },
     "web": {
       "bundler": "metro",
@@ -27,6 +29,7 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
+      "expo-dev-launcher",
       "expo-router"
     ],
     "experiments": {
